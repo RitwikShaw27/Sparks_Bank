@@ -82,15 +82,13 @@
             
             echo "<br>";
 
-            if ($con->query($ups) === TRUE && $con->query($upr) === TRUE && $con->query($sql) === TRUE && $flag == 0) {
-                echo "Money Transferred Successfully.Record Updated.";
+            if ($con->query($ups) === TRUE && $con->query($upr) === TRUE && $flag == 0) {
+                $con->query($sql);
+                // echo "Money Transferred Successfully.Record Updated.";
                 header('location: success.php');
-              } 
-            elseif(($flag == 1) && ($f == 1)) {
-                echo "Money Transfer Unsuccessful.Sender and Receiver can't be same.";
-              }
+              }            
             elseif($flag == 1) {
-                echo "Money Transfer Unsuccessful due to sender being bankrupt";
+                // echo "Money Transfer Unsuccessful due to sender being bankrupt";
                 header('location: failure.php');
               }
             else {

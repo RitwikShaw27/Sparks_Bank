@@ -105,7 +105,9 @@
     </style>
 
     <div class="container" style="margin-top: 15%; padding:10px 80px 10px 80px; ">
-        <p>Money Transfer Unsuccessful. Amount greater than account balance not allowed.</p>
+        <p style="color: red">Money Transfer Unsuccessful.</p>
+        
+        <p> Amount greater than account balance not allowed.</p>
     </div>
     <div class= "container1">
     <form action='login.php' method='post'>
