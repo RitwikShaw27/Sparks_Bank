@@ -129,7 +129,7 @@
             </div>
         </div>
     </div>
-    <!-- <img src="statics/abstbg2.png" alt="" style="width:100%; position:absolute; z-index:-1"> -->
+    
 
     
     <script>

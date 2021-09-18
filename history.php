@@ -83,7 +83,7 @@
         <div class="container" style="margin-top: 10%; padding:10px 80px 10px 80px; ">
             <div
                 style="width:80%; background-color:rgba(0,0,0,.5); padding:5px 5px 5px 5px; border-radius:30px; box-shadow: 2px 2px 10px gray;">
-                <h1 style=" color:white;">All Customers</h1>
+                <h1 style=" color:white;">Transaction History</h1>
             </div>
             
     
